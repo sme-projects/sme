@@ -16,3 +16,4 @@ script:
   - cd "$TRAVIS_BUILD_DIR/src/Examples/SimpleTrader/bin/Release/output/vhdl" && make test
   - cd "$TRAVIS_BUILD_DIR/src/Examples/NoiseFilter/bin/Release/output/vhdl" && make test
   - cd "$TRAVIS_BUILD_DIR/src/Examples/AES256CBC/bin/Release/output/vhdl" && make test
+  - cat $TRAVIS_BUILD_DIR/src/Examples/SimpleTrader/bin/Release/output/vhdl/TraderCoreEWMA.vhdl
